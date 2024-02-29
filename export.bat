@@ -1,0 +1,1 @@
+psql --set=sslmode=require -f export_smallareas_uk.sql -h localhost -p 5432 -U postgres postgres
